@@ -1,0 +1,373 @@
+/*Start Fonts Size*/
+@media screen and (max-width: 992px) {
+	h1 {
+		font-size: 30px;
+	}
+	h2 {
+		font-size: 14px;
+	}
+	p {
+		font-size: 12px;
+	}
+	a {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 14px;
+	}
+	p {
+		font-size: 14px;
+	}
+	a {
+
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 576px) {
+	h1 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
+/*End Fonts Size*/
+
+/*Start Header*/
+@media screen and (max-width: 992px) {
+	.none {
+		transition: all 1s;
+		display: none;
+		/*transform: translateY(-400px);*/
+	}
+	.logo {
+		width: 50%;
+	}
+	#header div ul li a {
+		text-align: center;
+	}
+	#header .btn_menu {
+		width: 40px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		transition: all 1s;
+	}
+	#header div ul li {
+		text-align: center;
+		width: 100%;
+		justify-content: center;
+	}
+	#nav_menu,
+	#login {
+		order: 2;
+		width: 100%;
+		text-align: center;
+		transition: all 1s;
+	}
+	#header .btn_menu span {
+		height: 3px;
+		background-color: #000000;
+		display: block;
+		width: 30px;
+		margin: 4px;
+		transition: all 1s;
+	}
+	.trans span:nth-child(1) {
+		transform: translate(-3px, 8px) rotate(45deg);
+	}
+	.trans span:nth-child(2) {
+		transform: scale(0);
+	}
+	.trans span:nth-child(3) {
+		transform: translate(-3px, -14px) rotate(-45deg);
+	}
+	#header .trans {
+		transform: rotate(450deg);
+		transition: all 0.5s;
+	}
+}
+/*End Header*/
+
+/*Start Section One*/
+@media screen and (max-width: 992px) {
+	#section_one img {
+		width: 400px;
+		height: 280px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#section_one {
+		flex-direction: column;
+	}
+	#container_sec_one {
+	    max-width: 500px;
+	    margin: 30px;
+	    text-align: center;
+	}
+	#section_one ul {
+		justify-content: center;	
+	}
+}
+@media screen and (max-width: 576px) {
+	#section_one img {
+	    width: 300px;
+	    height: 220px;
+	}
+	#container_sec_one {
+	    max-width: 400px;
+	    margin: 0px;
+	}
+}
+/*End Section One*/
+
+/*Start Section Two*/
+@media screen and (max-width: 992px) {
+	#section_two img {
+		width: 400px;
+		height: 230px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#container_sec_two {
+		flex-direction: column;
+		text-align: center;
+	}
+	.text_box {
+		max-width: 410px;
+		margin: 50px 10px;
+	}
+}
+@media screen and (max-width: 576px) {
+	#section_two img {
+		display: none;
+	}
+}
+/*End Section Two*/
+
+/*Start Section Three*/
+@media screen and (max-width: 992px) {
+	#section_three img {
+		width: 400px;
+		height: 230px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#container_sec_three {
+		flex-direction: column;
+		text-align: center;
+	}
+	.text_box {
+		max-width: 410px;
+		margin: 50px 10px;
+	}
+}
+@media screen and (max-width: 576px) {
+	#section_three img {
+		display: none;
+	}
+}
+/*End Section Three*/
+
+/*Start Section Four*/
+@media screen and (max-width: 768px) {
+	#section_four {
+		padding: 20px 0;
+	}
+	.content_sec_four  {
+		width: 40%;
+	}
+}
+@media screen and (max-width: 576px) {
+	.content_sec_four  {
+		width: 80%;
+	}
+}
+/*End Section Four*/
+
+/*Start Section Five*/
+@media screen and (max-width: 992px) {
+	#section_five h3 {
+		font-size: 18px;
+	}
+	#section_five h4 {
+		font-size: 60px;
+	}
+	#section_five h5 {
+		font-size: 40px;
+		left: 17%;
+	}
+}
+@media screen and (max-width: 576px) {
+	#section_five h3 {
+		font-size: 15px;
+	}
+	#section_five h4 {
+		font-size: 50px;
+	}
+	#section_five h5 {
+		font-size: 30px;
+		left: 20%;
+	}
+}
+/*End Section Five*/
+
+/*Start Section Six*/
+
+@media screen and (max-width: 992px) {
+	#section_six {
+		padding: 70px
+	}
+}
+@media screen and (max-width: 576px) {
+	#section_six {
+		padding: 30px
+	}
+}
+/*End Section Six*
+
+/*Start Section Seven*/
+@media screen and (max-width: 992px) {
+	#section_seven {
+		padding: 50px;
+	}
+}
+@media screen and (max-width: 576px) {
+	#section_seven {
+		/*display: none;*/
+		padding: 50px 20px;
+	}
+}
+/*End Section Seven*/
+
+
+/*Start Section Eight*/
+@media screen and (max-width: 992px) {
+	#section_eight img {
+		width: 380px;
+    	height: 280px;
+    	margin: 10px;
+	}
+	#container_sec_eight {
+		height: 400px;
+		max-width: 400px;
+		text-align: center;
+	}
+	#section_eight {
+		align-items: center;
+		flex-direction: column;
+		padding: 50px 50px;
+	}
+}
+@media screen and (max-width: 576px) {
+	#section_eight {
+		padding: 50px 20px;
+	}
+	#container_sec_eight {
+		height: 470px;
+		max-width: 300px;
+		text-align: center;
+	}
+	#section_eight img {
+		width: 300px;
+    	height: 220px;
+	}
+	#section_eight .slick-prev {
+	    right: 50px;
+	}
+	#section_eight .slick-next {
+	    right: 0px;
+	}
+}
+/*End Section Eight*/
+
+/*Start Section Nine*/
+@media screen and (max-width: 992px) {
+	#section_nine {
+		padding: 100px 50px;
+	}
+	#container_sec_nine .box_one h2 {
+		font-size: 14px;
+	}
+	#container_sec_nine .box_two h2 {
+		font-size: 14px;
+		max-width: 200px;
+	}
+	#section_nine h1 {
+		font-size: 40px;
+		margin-bottom: 70px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#container_sec_nine .box_one h2 {
+		font-size: 14px;
+	}
+	#container_sec_nine .box_two h2 {
+		font-size: 14px;
+	}
+	#section_nine h1 {
+		font-size: 30px;
+		margin-bottom: 70px;
+	}
+	#img_sec_nine {
+		width: 100px;
+    	height: 140px;
+	}
+	#dollar {
+		width: 40px; 
+	}
+	#container_sec_nine .box_two {
+		padding: 0 0 0 0;
+		margin: 0 0 0 20px;
+	}
+}
+@media screen and (max-width: 576px) {
+	#section_nine {
+		padding: 60px 30px;
+	}
+	.button a {
+		padding: 10px 10px;
+	}
+	#img_sec_nine {
+		width: 70px;
+    	height: 100px;
+	}
+	#dollar {
+		width: 20px; 
+	}
+}
+
+/*End Section Nine*/
+
+
+/*Start Section Ten*/
+@media screen and (max-width: 992px) {
+	#section_ten {
+		padding: 50px 50px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#container_sec_ten {
+		width: 500px;
+	}
+}
+@media screen and (max-width: 576px) {
+	#container_sec_ten {
+		width: 300px;
+	}
+	#first_last_name {
+		flex-direction: column;
+	}
+	#first_last_name input {
+		width: calc(100% - 20px);
+	}
+	#submit {
+		margin: 0 auto;
+	}
+}
+/*End Section Ten*/
