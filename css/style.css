@@ -444,74 +444,34 @@ a {
 	transform: translateY(-3px);
 	color: #1D727A;
 }
+#section_eight .next,
+#section_eight .prev {
+	border: solid 2px #1D727A;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #1D727A;
+	bottom: 20px;
+	position: absolute;
+	font-size: 20px;
+	transition: all 0.5s;
+}
+#section_eight .next:hover,
+#section_eight .prev:hover {
+	background-color: #1D727A;
+	color: #ffffff;
+	transition: all 0.5s;
+}
+#section_eight .next {
+	right: 50px;
+}
+#section_eight .prev {
+	right: 100px;
+}
 #section_eight .slick-slider {
     position: static;
-}
-#section_eight .slick-prev, .slick-next {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: initial;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    padding: 0;
-    /* -webkit-transform: translate(0, 0); */
-    -ms-transform: translate(0, 0);
-    /* transform: translate(0, 0); */
-    cursor: pointer;
-    color: transparent;
-    border: 2px solid #1D727A;
-    outline: none;
-    background: #ffffff;
-    bottom: 0px;
-}
-#section_eight .slick-prev {
-    left: initial;
-    bottom: 0px;
-    top: initial;
-    right: 75px;
-    transition: all 0.5s;
-}
-#section_eight .slick-next {
-    right: 25px;
-    transition: all 0.5s;
-}
-#section_eight .slick-prev:hover {
-    color: #ffffff; 
-    background: #1D727A; 
-    transition: all 0.5s;
-}
-#section_eight .slick-next:hover {
-    color: #ffffff; 
-    background: #1D727A; 
-    transition: all 0.5s;
-}
-#section_eight .slide {
-	outline: none;
-	margin: 0px 5px;
-}
-#section_eight .slick-prev:before {
-    content: "<";
-    padding: 0 4px 5px 0;
-}
-#section_eight .slick-next:before {
-	content: ">";
-	padding: 0 0px 5px 0;
-}
-#section_eight .slick-prev:before, #section_eight .slick-next:before {
-    font-family: 'slick';
-    font-size: 40px;
-    font-weight: bold;
-    opacity: 1;
-    color: #1D727A;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-#section_eight .slick-prev:hover:before, #section_eight .slick-next:hover:before {
-	color: #ffffff;
 }
 /*End Section Eight*/
 
@@ -560,6 +520,10 @@ a {
 .box_two div input {
 	min-width: 20px;
 	height: 20px;
+}
+input:focus,
+textarea:focus {
+	outline: none;
 }
 .button {
 	position: relative;

@@ -58,6 +58,8 @@ $(document).ready(function() {
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			draggable: false,
+			prevArrow: `<i class="fas fa-chevron-left prev"></i>`,
+			nextArrow: `<i class="fas fa-chevron-right next"></i>`,
 			speed: 1000
 		});
 

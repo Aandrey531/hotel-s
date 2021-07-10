@@ -263,6 +263,12 @@
 		flex-direction: column;
 		padding: 50px 50px;
 	}
+	#section_eight .next {
+		right: 0;
+	}
+	#section_eight .prev {
+		right: 50px;
+	}
 }
 @media screen and (max-width: 576px) {
 	#section_eight {
